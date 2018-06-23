@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css\estilos.css">
+	<link rel="stylesheet" type="text/css" href="css\fonts.css">
+	<link rel="stylesheet" type="text/css" href="css\style.css">
+</head>
+
+<header>	
+
+		<div class="cabecera" id="cabecera">
+			<figure class="logo" id="logo">
+						<img src="imagenes\logo.png">
+			</figure>
+			<nav class="navegacion" id="navegacion">
+				<ul>
+					<li><a href="G:\ABEL\PAGINA1\index.html">INICIO</a></li>
+					<li><a href="G:\ABEL\PAGINA1\index.html#nosotros">NOSOTROS</a></li>
+					<li><a href="G:\ABEL\PAGINA1\index.html#nservicios">SERVICIOS</a></li>
+					<li><a href="#">CONTACTO</a></li>
+				</ul>
+			</nav>
+			
+			<input type="text" class="buscar" id=buscar placeholder="Buscar...">
+			
+		</div> 
+    </header>
+
+<body>
+
+	<div class="main">
+
+		<div class="slides">
+			<div>
+			<img src="imagenes/inicio.jpg">
+			</div>
+
+			<div>
+            	<img src="imagenes/servicio1.jpg">
+				<div class="content-details">
+                <h3>INGENIERÍA Y AUTOMATIZACIÓN</h3>
+                <p>Se planifica, diseña y elabora proyectos para las diferentes necesidades del cliente...</p>
+                <br><a href="G:\ABEL\PAGINA1\servicios1.html"><input type="button" value="Conozca Más"></a><br></div>
+			</div>
+
+			<div>
+				<img src="imagenes/servico2.jpg">
+				<div class="content-details">
+                <h3>FABRICACIÓN DE TABLEROS ELÉCTRICOS</h3>
+                <p>Contamos con la experiencia para atender las exigencias de todo tipo de instalaciones, Industriales, Minería, comerciales, residenciales, centralizando nuestros equipos con gran confiabilidad en todos los circuitos derivados en un tablero que protege de daños y permite una operación segura...</p>
+                <a href="G:\ABEL\PAGINA1\servicios2.html"><input type="button" value="Conozca Más"></a><br><br></div>
+			</div>
+
+			<div>
+				<img src="imagenes/servicio3.jpg">
+				<div class="content-details">
+                <h3>SERVICIOS GENERALES, SISTEMAS ELÉCTRICOS Y ELECTROMECÁNICOS</h3>
+                <p>Puesta en marcha de Plantas industriales y equipos eléctricos, electrónicos...</p>
+                <a href="G:\ABEL\PAGINA1\servicios3.html"><input type="button" value="Conozca Más"></a><br><br></div>
+			</div>
+
+			<div>
+				<img src="imagenes/servicio4.jpg">
+				<div class="content-details">
+                <h3>COMERCIALIZACIÓN Y DISTRIBUCIÓN</h3>
+                <p>Se comercializan materiales eléctricos industriales, equipos de iluminación, alumbrado público, diseño de tableros de fuerza y control, motores, reductores, electrobombas, variadores de velocidad ABB, así mismo, asesoría técnica, materiales en general...</p>
+                <a href="G:\ABEL\PAGINA1\servicios4.html"><input type="button" value="Conozca Más"></a><br><br></div>
+			</div>
+
+			<div>
+				<img src="imagenes/servicio5.jpg">
+				<div class="content-details">
+                <h3>ENERGIAS RENOVABLES</h3>
+                <p>Brindamos tecnología nueva y alternativa para reducir los costos de Energía eléctrica, en su hogar, en el sector industrial como la minería, la agricultura o la telecomunicación Empresa, Institución...</p>
+                <a href="G:\ABEL\PAGINA1\servicios5.html"><input type="button" value="Conozca Más"></a><br><br></div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.slides.js"></script>
+	<script> 
+		$(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 3000,
+        // [number] Time spent on each slide in milliseconds
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});ñ
+	</script>
+<section id="nosotros" class="nosotros">
+	<div id = "colquienes1" class = "colquienes">
+		<h3>QUIENES SOMOS </h3><br>
+            <p ALIGN="justify"><img src="imagenes/quienes.jpg" class = "derquienes" heigh="150" width="400"> Energizar Eleconin SAC, somos una compañía especializada en brindar soluciones en ingeniería y automatización, con amplia experiencia en sector de Minería, Energía, y demás sectores industriales.
+            Somos una empresa donde nuestro principal objetivo es la seguridad energética, estamos comprometidos con todos sus objetivos de nuestros clientes, para mantener la confianza eficiencia y productividad.
+            Desarrollamos nuestro negocio con total respeto por el medio ambiente, comunidades y población en general.</p>
+	</div>
+
+	<div id = "colvision" class = "colvision">
+		<h3>VISIÓN</h3><br>
+            <p ALIGN="justify"><img src="imagenes/quienes.jpg" class = "izqvision" heigh="150" width="400"> Líder en  Servicios  de ingeniería y automatización, Diseño y fabricación de Tableros eléctricos de Media y Baja Tensión, comercialización y distribución de materiales eléctricos. Máquinas y equipos, servicios de calidad en las diferentes ramas operaciones, planeamiento, automatización, servicios en general en todos los sectores energéticos.</p>
+	</div>
+
+	<div id = "colmision" class = "colmision">
+		<h3>MISIÓN</h3><br>
+            <p ALIGN="justify"><img src="imagenes/quienes.jpg" class = "dermision" heigh="150" width="400"> Llegar a ser líder en el sector energético a nivel nacional e internacional brindar soluciones de alto nivel en todo momento, con respuesta y compromiso con nuestros clientes.  Brindar soluciones sostenibles con un equipo altamente comprometido y con el objetivo de consolidar su capacidad de crecimiento y rentabilidad.</p>
+	</div>
+
+	<div id = "colvalores" class = "colvalores">
+		<h3>VALORES</h3><br>
+            <p ALIGN="justify"><img src="imagenes/quienes.jpg" class = "izqvalores" heigh="150" width="400"> </p>
+            <li>Eficacia</li>
+            <li>Relación Humana de calidad</li>
+            <li>Compromiso</li>
+            <li>Innovación</li>
+            <li>Superación</li>
+	</div>
+
+
+</section>
+
+<section id="nservicios" class="nservicios">
+	<h3>NUESTROS SERVICIOS</h3>
+		
+		<div class = "col">				
+			<div class = "ser1">
+				<div class = "info1">
+					<p class = "headline"><a href="G:\ABEL\PAGINA1\servicios1.html">INGENIERÍA Y AUTOMATIZACIÓN</a></p>
+				</div>
+			</div>
+		</div>	
+
+		<div class = "col2">	
+			<div class = "ser2">
+				<div class = "info2">
+					<p class = "headline2"><a href="G:\ABEL\PAGINA1\servicios2.html">FABRICACIÓN DE TABLEROS ELÉCTRICOS</a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class = "col3">	
+			<div class = "ser3">
+				<div class = "info3">
+					<p class = "headline3"><a href="G:\ABEL\PAGINA1\servicios3.html">SERVICIOS GENERALES, SISTEMAS ELÉCTRICOS Y ELECTROMECÁNICOS</a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class = "col4">	
+			<div class = "ser4">
+				<div class = "info4">
+					<p class = "headline4"><a href="G:\ABEL\PAGINA1\servicios4.html">COMERCIALIZACIÓN Y DISTRIBUCIÓN</a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class = "col5">	
+			<div class = "ser5">
+				<div class = "info5">
+					<p class = "headline5"><a href="G:\ABEL\PAGINA1\servicios5.html">ENERGIAS RENOVABLES</a></p>
+				</div>
+			</div>
+		</div>
+</section>
+
+	<footer>
+		<div class= "pie" id="pie">
+		<ul>
+			<li><span class="icon-phone">  </span><a href="#"> 995508071 / 979460584</a></li>
+			<li><span class="icon-mail4">  </span><a href="#"> jyachachin@eleconin.com / jmelo@eleconin.com</a></li>
+			<li><span class="icon-facebook2">  </span><a href="https://www.facebook.com/"> www.facebook.com</a></li>
+		</ul>
+			 
+		</div>
+		<div class = "div2" id= "div2">
+			<p class = "parrafo"> Para mayor información sobre nuestros proyectos, área de ventas, Cotizaciones e información en general, pueden comunicarse con nosotros a nuestros números telefónicos o escribir a nuestros emails <strong>ventas@eleconin.com</strong>, donde responderemos con rapidez.
+			</p>
+
+		</div>
+	</footer>
+
+</body>
+</html>
